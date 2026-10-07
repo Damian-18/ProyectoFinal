@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.proyectofinal.ui.auth.LoginScreen
+import com.example.proyectofinal.ui.reportes.CapturaIncidenciaScreen
 import com.example.proyectofinal.ui.reportes.ListadoReportesScreen
 
 @Composable
@@ -41,9 +42,9 @@ fun AppNavigation(
         }
         
         composable("captura") {
-            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text(text = "Pantalla: Captura de Reporte")
-            }
+            CapturaIncidenciaScreen(
+                onNavigateBack = { navController.popBackStack() }
+            )
         }
         
         composable("admin") {
