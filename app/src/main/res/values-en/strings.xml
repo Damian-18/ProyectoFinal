@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Alert City</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Welcome</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button_enter">Login</string>
+    <string name="login_error_empty_fields">Please fill in all fields</string>
+
+    <!-- Report Statuses -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_resolved">Resolved</string>
+
+    <!-- Report Capture Interface -->
+    <string name="capture_title">New Report</string>
+    <string name="capture_description_hint">Describe the issue here&#8230;</string>
+    <string name="capture_button_take_photo">Take Photo</string>
+    <string name="capture_button_select_photo">Select from Gallery</string>
+    <string name="capture_location_label">Approximate Location</string>
+    <string name="capture_button_submit">Submit Report</string>
+    <string name="capture_button_save_draft">Save Draft</string>
+    <string name="capture_error_empty_description">Description cannot be empty</string>
+
+    <!-- General -->
+    <string name="general_loading">Loading&#8230;</string>
+    <string name="general_error">An error occurred</string>
+</resources>

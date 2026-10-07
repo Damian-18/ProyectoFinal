@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">ProyectoFinal</string>
+    <string name="app_name">Ciudad Alerta</string>
+
+    <!-- Pantalla de Login -->
+    <string name="login_title">Bienvenido</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button_enter">Ingresar</string>
+    <string name="login_error_empty_fields">Por favor, llena todos los campos</string>
+
+    <!-- Estados del Reporte -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_in_progress">En proceso</string>
+    <string name="status_resolved">Resuelto</string>
+
+    <!-- Interfaz de Captura de Reporte -->
+    <string name="capture_title">Nuevo Reporte</string>
+    <string name="capture_description_hint">Describe el problema aquí&#8230;</string>
+    <string name="capture_button_take_photo">Tomar Foto</string>
+    <string name="capture_button_select_photo">Seleccionar de Galería</string>
+    <string name="capture_location_label">Ubicación aproximada</string>
+    <string name="capture_button_submit">Enviar Reporte</string>
+    <string name="capture_button_save_draft">Guardar Borrador</string>
+    <string name="capture_error_empty_description">La descripción no puede estar vacía</string>
+
+    <!-- Generales -->
+    <string name="general_loading">Cargando&#8230;</string>
+    <string name="general_error">Ocurrió un error</string>
 </resources>
