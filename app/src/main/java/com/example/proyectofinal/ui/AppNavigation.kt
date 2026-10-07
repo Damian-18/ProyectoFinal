@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.proyectofinal.ui.auth.LoginScreen
+import com.example.proyectofinal.ui.reportes.ListadoReportesScreen
 
 @Composable
 fun AppNavigation(
@@ -34,9 +35,9 @@ fun AppNavigation(
         }
         
         composable("lista_ciudadano") {
-            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text(text = "Pantalla: Lista Ciudadano")
-            }
+            ListadoReportesScreen(
+                onNavigateToCaptura = { navController.navigate("captura") }
+            )
         }
         
         composable("captura") {
